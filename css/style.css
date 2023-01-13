@@ -1,0 +1,239 @@
+html, body{
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Kumar One', cursive;
+  src: url(../assets/KumarOne-Regular.ttf);
+}
+
+.homeBackGround
+{
+background-image: url("../assets/pawel-czerwinski-XQqd6JKDkSM-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageOne
+{
+background-image: url("../assets/magicpattern-oPH_5xuMgQw-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageTwo
+{
+background-image: url("../assets/cesar-couto-pC2xOplxsVs-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageThree
+{
+background-image: url("../assets/gradienta-LeG68PrXA6Y-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageFour
+{
+background-image: url("../assets/adrian-infernus-GLf7bAwCdYg-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageFive
+{
+background-image: url("../assets/milad-fakurian-iFu2HILEng8-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: fill;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+}
+
+.pageSix
+{
+background-image: url("../assets/luke-chesser-zFaSM1hz02c-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageSeven
+{
+background-image: url("../assets/gradienta-JbGXFmkTj1Q-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageEight
+{
+background-image: url("../assets/mitul-grover-oAh2xssn_9w-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.pageNine
+{
+background-image: url("../assets/hassaan-qaiser-bKfkhVRAJTQ-unsplash.jpg");
+    /* background-color: #cccccc; */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+}
+
+.bottomButtonPadding
+{
+  padding: 3rem;
+}
+
+.navBar
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 9rem;
+    font-size: 5rem;
+    font-family: 'Kumar One', cursive;
+}
+
+.pagesTitles
+{
+  font-size: 5rem;
+  padding-bottom: 7rem;
+  font-family: 'Kumar One', cursive;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 3rem;
+    flex-wrap: nowrap;
+}
+
+.buttons > *
+{
+    width: 11rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttonSpacing
+{
+  padding-bottom: 1rem;
+}
+
+.resultsSpacing
+{
+  padding-top: 3rem;
+}
+
+.madResultsSpacing
+{
+  padding-top: 0rem;
+}
+
+.madResults
+{
+  display: flex;
+}
+
+/* #setter {
+    display: inline-block;
+  }
+  
+  .container {
+    max-width: 200px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1.125em;
+  }
+  
+  .wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    right: 0;
+  } */
+  .reverseResults
+  {
+    font-size: 2rem;
+  }
+
+  .pgOneContent *
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pgOneInput
+  {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .madTitle
+  {
+    padding-bottom: 0rem;
+    font-size: 4rem;
+    font-family: 'Kumar One', cursive;
+  }
+
+  .addResults
+  {
+    font-size: 3rem;
+  }
+
+  .oddResults
+  {
+    font-size: 2rem;
+  }
+
+  .studentSpacing > *
+  {
+    gap: 10px;
+  }
+
+  .studentResults
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .askFont
+  {
+    font-size: 2rem;
+  }
